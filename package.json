@@ -1,0 +1,27 @@
+{
+  "name": "cordlr-hmu",
+  "description": "Cordlr hmu plugin",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seanc/cordlr-hmu",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "seanc/cordlr-hmu",
+  "bugs": {
+    "url": "https://github.com/seanc/cordlr-hmu/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "cordlr",
+    "hmu"
+  ],
+  "dependencies": {
+    "hmu-core": "^0.3.0",
+    "hmu-runs-parse": "^0.1.0",
+    "hmu-slack": "^0.2.3"
+  }
+}
