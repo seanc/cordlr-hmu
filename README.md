@@ -1,4 +1,4 @@
-# cordlr-hmu [![NPM version](https://badge.fury.io/js/cordlr-hmu.svg)](https://npmjs.org/package/cordlr-hmu) [![Build Status](https://travis-ci.org/seanc/cordlr-hmu.svg?branch=master)](https://travis-ci.org/seanc/cordlr-hmu)
+# cordlr-hmu [![NPM version](https://badge.fury.io/js/cordlr-hmu.svg)](https://npmjs.org/package/cordlr-hmu)
 
 > Cordlr hmu plugin
 
@@ -8,11 +8,20 @@
 $ npm install --save cordlr-hmu
 ```
 
-## Usage
+Then add it to your config.
 
 ```js
-var cordlrHmu = require('cordlr-hmu');
-cordlrHmu();
+{
+  "plugins": [
+    "cordlr-hmu"
+  ]
+}
+```
+
+## Usage
+
+```
+hmu <name> [...args]
 ```
 
 ## License

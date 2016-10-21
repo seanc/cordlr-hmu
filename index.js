@@ -2,8 +2,6 @@ const core = require('hmu-core');
 const parse = require('hmu-runs-parse');
 
 function hmu(bot, config) {
-  config = config[hmu.name] || {};
-
   return function run(message, args) {
     if (!args.length) return message.reply('Invalid arguments provided');
     parse(args.join(' ')).then(runs => {
